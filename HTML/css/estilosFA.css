@@ -41,11 +41,8 @@ nav .derecha{
     margin-top: 80px;
 }
 
-.contenedor .card{
-    float:left;
-}
-
 .card{
+    float:left;
     width: 70px;
     height: 85px;
     background-color: #f2f2f2;

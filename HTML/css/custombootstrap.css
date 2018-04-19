@@ -1,0 +1,17 @@
+.fondo-gris{
+    background-color:lightgray;
+    border:1px solid black;
+}
+
+.altura-320px{
+    height: 320px;
+}
+
+.altura-160px{
+    height: 160px;
+}
+
+.row .vacio{
+    background-color: white ;
+    border: 1px dashed lightgray;
+}
