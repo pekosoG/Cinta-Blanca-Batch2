@@ -9,7 +9,7 @@ let m = "Cinta Blanca"; // esta es una variable de tipo string
 // Operadores de comparacion
 // ==, !=, <, >, <=, >=
 
-// Esta es una funcion de JS y su alcanze solo existe dentro de ella.
+// Esta es una funcion de JS y su alcance solo existe dentro de ella.
 function SumarNumeros(x,y) { // la funcion recibe 2 parametros.
   // console.log nos sirve para imprimir en la consola
   console.log(typeof(x));
