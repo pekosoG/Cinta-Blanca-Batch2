@@ -1,4 +1,4 @@
-let edad=17;
+let edad=18;
 
 if(edad>=18){
     console.log('ya es mayor de edad');
@@ -8,7 +8,7 @@ if(edad>=18){
     else if(edad>60 & edad<=90){
         console.log('podria ser tu abuelo');
     }
-    else{
+    else if(edad > 90){
         console.log('ya es una momia');
     }
 }
