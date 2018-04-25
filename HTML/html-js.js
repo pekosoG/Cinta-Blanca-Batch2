@@ -18,8 +18,6 @@ let cinta_blanca = [
 ]
 
 for(i=0; i<cinta_blanca.length; i++){
-    let h1= document.createElement('h1');
-    let texto= document.createTextNode('Este wei se llama '+cinta_blanca[i].nombre+' y tiene '+cinta_blanca[i].edad+' años');
-    h1.appendChild(texto);
-    elBody.appendChild(h1);
+    let h1=$('<h1>'+'Este wei se llama '+cinta_blanca[i].nombre+' y tiene '+cinta_blanca[i].edad+' años'+'</h1>');
+    $('#elBody').append(h1);
 }
