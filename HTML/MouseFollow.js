@@ -14,9 +14,9 @@ function init(){
     }
 }
 
-$(document).ready(function(){
+$(document).ready(()=>{
     init();
-    $('body').click(function(){
+    $('body').click(()=>{
         $('.follow').remove();
         init();
     });
@@ -24,12 +24,12 @@ $(document).ready(function(){
         $('body').css({
             'background-color':colors[Math.floor(Math.random()*6)+1]
         });
-        var x = (e.pageX - this.offsetLeft);
-        var y = (e.pageY - this.offsetTop);
+        let x = (e.pageX - this.offsetLeft);
+        let y = (e.pageY - this.offsetTop);
         
-        $('.follow').each(function(element,index){
+        $('.follow').each(function(index,element){
             setTimeout(function(){
-                $(index).css({
+                $(element).css({
                     'left': x+Math.floor(Math.random() * Math.floor(100)),
                     'top': y+Math.floor(Math.random() * Math.floor(100))
                 });
