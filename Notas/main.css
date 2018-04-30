@@ -1,0 +1,68 @@
+*:focus {
+    outline: none;
+}
+
+body{
+    margin: 0px;
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    width: 100%;
+    padding:16px;
+    background-color: chocolate;
+    color:white;
+    box-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+}
+
+button{
+    padding:15px;
+    background-color: transparent;
+    border:0px;
+}
+
+#agregar{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color:darkgrey;
+    background-color: white;
+}
+.redondo{
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+}
+
+.tarjeta{
+    margin:10px;
+    width: 250px;
+    background-color: white;
+    padding: 6px;
+    box-shadow: rgba(0,0,0,0.5) 1px 1px 1px;
+    float: left;
+}
+
+#pre-tarjeta input, #pre-tarjeta textarea{
+    border:0px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+#pre-tarjeta input{
+    font-size: 1.2em;
+}
+
+#pre-tarjeta textarea{
+    font-size: 1em;
+}
+
+#pre-tarjeta button{
+    float: right;
+}
+
+.btn-cancel{
+    color:#bc0903;
+}
