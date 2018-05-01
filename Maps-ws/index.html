@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WS Maps</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h4>Buscar Tiempo de Recorrido según Google Maps</h4>
+        <input id="origen" type="text" placeholder="Origen"/>
+        <input id="destino" type="text" placeholder="Destino"/>
+        <button onclick="buscar()">Buscar</button>
+    </div>
+
+    <div id="map" style="position:absolute;"/>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"> </script>
+    <script>
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 16,
+            center: {lat: 20.6570143, lng: -103.3976601}
+        });
+
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

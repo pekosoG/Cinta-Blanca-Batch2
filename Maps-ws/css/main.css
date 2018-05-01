@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor{
+    position: absolute;
+    top:50px;
+    left: 10px;
+    z-index: 9999;
+    padding: 10px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.2) 1px 1px 1px;
+}
+
+h4{
+    margin-top: 0px;
+}
+
+h5{
+    margin-bottom: 0px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+   }
