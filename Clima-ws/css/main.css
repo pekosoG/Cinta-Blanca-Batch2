@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(205, 205, 205);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*:focus{
+    outline: none;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    border:0px;
+    background-color: transparent;
+    color:black;
+    font-size: 30px;
+}
+
+input{
+    background-color: white;
+    border: 0px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.centrado{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center; 
+}
+
+.tarjeta{
+    margin-top: 15px;
+    background-color: white;
+    width: 450px;
+    height: 180px;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,0.3) 2px 2px 2px;
+    border-radius: 1px;
+}
+
+.ciudad{
+    display: block;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.clima{
+    width: 155px;
+    float: left;
+}
+
+.temp{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 9px 25px 37px;
+    font-size: 25px;
+}
+
+.pre{
+    display: none;
+}

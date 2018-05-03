@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clima WS</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="centrado">
+        <input id="input-ciudad" type="text" placeholder="Escribe la Ciudad">
+        <button class="" onclick="buscale()">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+
+    <div class="contenedor">
+        <div class="tarjeta centrado pre" >
+            <h3 class="ciudad">
+                Tepito
+            </h3>
+            <img class="clima" src="data:image/png;base64,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"/>
+            <h4  class="temp max">
+                100ª
+            </h4>
+            <h4 class="temp min">
+                -100ª
+            </h4>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
